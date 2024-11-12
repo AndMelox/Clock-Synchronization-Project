@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Pagina de nodo-Cliente</title>
+</head>
+<body class="bg-dark text-white">
+    <h1 class='display-3 mx-4 text-center' id="title"></h1>
+    <div class="card mb-4 mx-4 py-2 bg-dark text-white border-primary">
+        <h2 class="text-center mb-3">Reloj de instancia</h2>
+        <div class="container bg-dark text-white" id="clientsList">
+            <p class="text-center display-1 text-bold" id="clock"></p>
+        </div>
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
